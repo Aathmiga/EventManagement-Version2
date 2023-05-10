@@ -1,0 +1,557 @@
+{
+  "users": [
+    {
+      "firstname": "Aathmiga",
+      "lastname": "M",
+      "mobilenumber": "8825644416",
+      "email": "aathmiga24@gmail.com",
+      "create": "Aathmiga@123",
+      "confirm": "Aathmiga@123",
+      "policy": true,
+      "id": 1
+    }
+
+  ],
+  "admin": [
+    {
+      "email": "aaathmiga123@gmail.com",
+      "create": "Aathmiga@123"
+
+    }
+  ],
+  "studio": [
+    {
+      "image": "../assets/images/studio6.jpg",
+      "title": "PICTURE PERFECT STUDIO",
+      "ratings": "4.3",
+      "discount": "-9%",
+      "price": "65,999",
+      "mrp": "M.R.P.:",
+      "originalPrice": "73,999"
+    },
+    {
+      "image": "../assets/images/photo-name3.jpg",
+      "title": "THE WEDDING NETWORK",
+      "ratings": "4.3",
+      "discount": "-10%",
+      "price": "58,999",
+      "mrp": "M.R.P.:",
+      "originalPrice": "69,999"
+    },
+    {
+      "image": "../assets/images/studio2.jpg",
+      "title": "LIGHT STUDIO",
+      "ratings": "4.3",
+      "discount": "-10%",
+      "price": "58,999",
+      "mrp": "M.R.P.:",
+      "originalPrice": "69,999"
+    },
+    {
+      "image": "../assets/images/studio4.jpg",
+      "title": "SK PHOTOGRAPHY",
+      "ratings": "4.3",
+      "discount": "-10%",
+      "price": "58,999",
+      "mrp": "M.R.P.:",
+      "originalPrice": "69,999"
+    },
+    {
+      "image": "../assets/images/photo-name2.jpg",
+
+      "title": "OLGA GURTON STUDIO",
+      "ratings": "4.3",
+      "discount": "-10%",
+      "price": "58,999",
+      "mrp": "M.R.P.:",
+      "originalPrice": "69,999"
+    },
+    {
+      "image": "../assets/images/studio1.jpg",
+      "title": "THE CAMERA EYE STUDIO",
+      "ratings": "4.3",
+      "discount": "-10%",
+      "price": "58,999",
+      "mrp": "M.R.P.:",
+      "originalPrice": "69,999"
+    },
+    {
+      "image": "../assets/images/studio5.jpg",
+      "title": "WEDLOCK PHOTO",
+      "ratings": "4.3",
+      "discount": "-10%",
+      "price": "58,999",
+      "mrp": "M.R.P.:",
+      "originalPrice": "69,999"
+    }
+  ],
+  "weddings": [
+    {
+      "image": "../assets/images/beachone.jpg",
+      "image1": "../assets/images/beachone-one.jpg",
+      "image2": "../assets/images/beachone-two.jpg",
+      "image3": "../assets/images/beachone-three.jpg",
+      "image4": "../assets/images/beachone-four.jpg",
+      "title": "FANCY DECORATIONS ",
+      "titleExtend": "- BEACH WEDDING - WOODEN STICKS - NATURAL FLOWERS - COTTON CURTAINS",
+      "titleDescription": "Beach Wedding",
+      "ratings": "4.3",
+      "discount": "55% off",
+      "price": "20,000",
+      "mrp": "M.R.P.:\u20B9",
+      "originalPrice": "45,000",
+      "id": "1"
+    },
+    {
+      "image": "../assets/images/beachtwo.jpg",
+      "title": "SANA DECORATIONS",
+      "titleDescription": "Beach Wedding",
+      "ratings": "4.3",
+      "discount": "49% off",
+      "price": "45,000",
+      "mrp": "M.R.P.:\u20B9",
+      "originalPrice": "88,499",
+      "id": "2"
+    },
+    {
+      "image": "../assets/images/traditionalone.jpg",
+      "title": "BENNI DECORATIONS",
+      "titleDescription": "Traditional Wedding",
+      "ratings": "4.3",
+      "discount": "36% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "58,999",
+      "originalPrice": "92,499",
+      "id": "3"
+    },
+    {
+      "image": "../assets/images/traditionaltwo.jpg",
+      "title": "IBHU DECORATIONS",
+      "titleDescription": "Traditional Wedding",
+      "ratings": "4.3",
+      "discount": "25% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "62,899",
+      "originalPrice": "83,622",
+      "id": "4"
+    },
+    {
+      "image": "../assets/images/vintageone.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Vintage Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "28,999",
+      "originalPrice": "",
+      "id": "5"
+    },
+    {
+      "image": "../assets/images/royalone.jpg",
+      "title": "SUMMI DECORATIONS",
+      "titleDescription": "Royal Wedding",
+      "ratings": "4.3",
+      "discount": "17% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "65,599",
+      "originalPrice": "79,599",
+      "id": "6"
+    },
+    {
+      "image": "../assets/images/beachthree.jpg",
+      "title": "EVES DECORATIONS",
+      "titleDescription": "Beach Wedding",
+      "ratings": "4.3",
+      "discount": "33% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "15,999",
+      "originalPrice": "23,999",
+      "id": "7"
+    },
+    {
+      "image": "../assets/images/destinationone.jpg",
+      "title": "SANA DECORATIONS",
+      "titleDescription": "Destination Wedding",
+      "ratings": "4.3",
+      "discount": "23% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "88,499",
+      "originalPrice": "1,15,499",
+      "id": "8"
+    },
+    {
+      "image": "../assets/images/destinationtwo.jpg",
+      "title": "SWEETY DECORATIONS",
+      "titleDescription": "Destination Wedding",
+      "ratings": "4.3",
+      "discount": "4% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "72,599",
+      "originalPrice": "75,499",
+      "id": "9"
+    },
+    {
+      "image": "../assets/images/destinationthree.jpg",
+      "title": "EVES DECORATIONS",
+      "titleDescription": "Destination Wedding",
+      "ratings": "4.3",
+      "discount": "19% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "75,799",
+      "originalPrice": "93,599",
+      "id": "10"
+    },
+    {
+      "image": "../assets/images/destinationfour.jpg",
+      "title": "IBHU DECORATIONS",
+      "titleDescription": "Destination Wedding",
+      "ratings": "4.3",
+      "discount": "28% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "92,499",
+      "originalPrice": "1,28,999",
+      "id": "11"
+    },
+    {
+      "image": "../assets/images/royaltwo.jpg",
+      "title": "HAPPY WEDS DECORATIONS",
+      "titleDescription": "Royal Wedding",
+      "ratings": "4.3",
+      "discount": "18% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "1,29,999",
+      "originalPrice": "1,58,999",
+      "id": "12"
+    },
+    {
+      "image": "../assets/images/royalthree.jpg",
+      "title": "SANA DECORATIONS",
+      "titleDescription": "Royal Wedding",
+      "ratings": "4.3",
+      "discount": "24% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "1,88,999",
+      "originalPrice": "2,50,000",
+      "id": "13"
+    },
+    {
+      "image": "../assets/images/beachfour.jpg",
+      "title": "SUMMI DECORATIONS",
+      "titleDescription": "Beach Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "55,599",
+      "originalPrice": "",
+      "id": "14"
+    },
+    {
+      "image": "../assets/images/traditionalfour.jpg",
+      "title": "EVES DECORATIONS",
+      "titleDescription": "Traditional Wedding",
+      "ratings": "4.3",
+      "discount": "20% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "62,899",
+      "originalPrice": "78,599",
+      "id": "15"
+    },
+    {
+      "image": "../assets/images/beachfive.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Beach Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "68,899",
+      "originalPrice": "",
+      "id": "16"
+    },
+    {
+      "image": "../assets/images/destinationfive.jpg",
+      "title": "IBHU DECORATIONS",
+      "titleDescription": "Destination Wedding",
+      "ratings": "4.3",
+      "discount": "30% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "65,599",
+      "originalPrice": "93,899",
+      "id": "17"
+    },
+    {
+      "image": "../assets/images/traditionalfive.jpg",
+      "title": "BENNI DECORATIONS",
+      "titleDescription": "Traditional Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "62,599",
+      "originalPrice": "",
+      "id": "18"
+    },
+    {
+      "image": "../assets/images/vintagethree.jpg",
+      "title": "EVENT DECORATIONS",
+      "titleDescription": "Vintage Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "34,599",
+      "originalPrice": "",
+      "id": "19"
+    },
+    {
+      "image": "../assets/images/vintagefour.jpg",
+      "title": "SAKTHI DECORATIONS",
+      "titleDescription": "Vintage Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "48,599",
+      "originalPrice": "",
+      "id": "20"
+    },
+    {
+      "image": "../assets/images/royalfour.jpg",
+      "title": "BENNI DECORATIONS",
+      "titleDescription": "Royal Wedding",
+      "ratings": "4.3",
+      "discount": "23% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "1,95,999",
+      "originalPrice": "2,55,999",
+      "id": "21"
+    },
+    {
+      "image": "../assets/images/beachsix.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Beach Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "45,599",
+      "originalPrice": "",
+      "id": "22"
+    },
+    {
+      "image": "../assets/images/beachseven.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Beach Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "45,999",
+      "originalPrice": "",
+      "id": "23"
+    },
+    {
+      "image": "../assets/images/destinationsix.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Destination Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "82,599",
+      "originalPrice": "",
+      "id": "24"
+    },
+    {
+      "image": "../assets/images/royalfive.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Royal Wedding",
+      "ratings": "4.3",
+      "discount": "23% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "1,35,599",
+      "originalPrice": "1,75,999",
+      "id": "25"
+    },
+    {
+      "image": "../assets/images/destinationseven.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Destination Wedding",
+      "ratings": "4.3",
+      "discount": "46% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "30,000",
+      "originalPrice": "55,999",
+      "id": "26"
+    },
+    {
+      "image": "../assets/images/beacheight.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Beach Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "45,599",
+      "originalPrice": "",
+      "id": "27"
+    },
+    {
+      "image": "../assets/images/vintagefive.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Vintage Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "50,499",
+      "originalPrice": "",
+      "id": "28"
+    },
+    {
+      "image": "../assets/images/vintageseven.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Vintage Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "28,999",
+      "originalPrice": "",
+      "id": "29"
+    },
+    {
+      "image": "../assets/images/traditionaleight.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Traditional Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "63,599",
+      "originalPrice": "",
+      "id": "30"
+    },
+    {
+      "image": "../assets/images/destinationeight.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Destination Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "72,299",
+      "originalPrice": "",
+      "id": "31"
+    },
+    {
+      "image": "../assets/images/destinationten.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Destination Wedding",
+      "ratings": "4.3",
+      "discount": "20% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "1,10,999",
+      "originalPrice": "1,38,999",
+      "id": "32"
+    },
+    {
+      "image": "../assets/images/beachten.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Beach Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "20,000",
+      "originalPrice": "",
+      "id": "33"
+    },
+    {
+      "image": "../assets/images/traditionalnine.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Traditional Wedding",
+      "ratings": "4.3",
+      "discount": "13% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "85,599",
+      "originalPrice": "98,599",
+      "id": "34"
+    },
+    {
+      "image": "../assets/images/beachtwelve.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Beach Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "52,499",
+      "originalPrice": "",
+      "id": "35"
+    },
+    {
+      "image": "../assets/images/royaleight.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Royal Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "48,999",
+      "originalPrice": "",
+      "id": "36"
+    },
+    {
+      "image": "../assets/images/royalnine.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Royal Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "1,25,999",
+      "originalPrice": "",
+      "id": "37"
+    },
+    {
+      "image": "../assets/images/destinationnine.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Destination Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "76,599",
+      "originalPrice": "",
+      "id": "38"
+    },
+    {
+      "image": "../assets/images/destinationten.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Destination Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "1,28,499",
+      "originalPrice": "",
+      "id": "39"
+    },
+    {
+      "image": "../assets/images/royaltwelve.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Royal Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "1,68,299",
+      "originalPrice": "",
+      "id": "40"
+    },
+    {
+      "image": "../assets/images/beacheleven.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Beach Wedding",
+      "ratings": "4.3",
+      "discount": "",
+      "mrp": "",
+      "price": "62,599",
+      "originalPrice": "",
+      "id": "41"
+    },
+    {
+      "image": "../assets/images/royalfifteen.jpg",
+      "title": "FANCY DECORATIONS",
+      "titleDescription": "Royal Wedding",
+      "ratings": "4.3",
+      "discount": "47% off",
+      "mrp": "M.R.P.:\u20B9",
+      "price": "1,58,499",
+      "originalPrice": "2,98,499",
+      "id": "42"
+    }
+  ]
+}

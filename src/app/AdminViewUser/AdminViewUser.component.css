@@ -1,0 +1,8 @@
+.display-user-details{
+  margin-top: 150px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}

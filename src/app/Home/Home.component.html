@@ -1,0 +1,168 @@
+<header >
+  <div  class="navbars">
+          <div  class="navbar">
+              <nav>
+                <input type="checkbox" id="show-menu">
+                <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+                <div class="content" id="content-active">
+                  <div class="navi">
+                      <div class="logo">
+                          <li><a routerLink="#"><img src="../assets/images/ketti1-removebg-preview.png"  id="image"/></a></li>
+                          <li class="list1"><p>Kettimelam</p> </li>
+                         <div class="main">
+                          <input type="search" placeholder="Type to search">
+                          <a href="#"><i class="fa fa-search icon-search" style="font-size: 16px;"></i></a>
+                          </div>
+                      </div>
+                  </div>                        <ul class="links">
+                    <li class="active-btn active"><a routerLink="/home" routerLinkActive="active">Home</a></li>
+                    <li class="active-btn"><a routerLink="shop" routerLinkActive="active" class="desktop-link">Shop</a>
+                      <input type="checkbox" id="show-services">
+                      <label for="show-services" >Shop</label>
+                      <ul>
+                        <li><a routerLink="/catering">Catering</a></li>
+                        <li><a routerLink="/studio">Studio</a></li>
+                        <li><a routerLink="/weddings">Weddings</a>
+                        <!-- <ul><li >
+                          <input type="checkbox" id="show-features">
+
+                            <li><a routerLink="traditional">Traditional</a></li>
+                            <li><a routerLink="royal">Royal</a></li>
+                            <li><a routerLink="vintage">Vintage</a></li>
+                            <li><a routerLink="beach">Beach</a></li>
+                            <li><a routerLink="destination">Desination</a></li>
+
+
+                       </ul> -->
+                        </li>
+
+
+                      </ul>
+                  </li>
+
+
+                    <li class="active-btn"><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+
+                  <div class="login">   <button class="home-login" id="login-btn">
+                    <a  *ngIf="!loginService.isLoggedin" routerLink="/login">Login</a>
+                    <a *ngIf="loginService.isLoggedin"  (click)="onLogout()" routerLink="/home">Logout</a>
+
+
+                    <!-- user profile -->
+                    <!-- <div *ngIf="loginService.isLoggedin"  class="loggedin">
+                    <div *ngIf="users">
+                      <div *ngFor="let items of users">
+                      <div  class="userName">{{items.firstname}}</div>
+                      </div>
+                    </div>
+                    <a   (click)="onLogout()" routerLink="/home">Logout</a>
+                    <a *ngIf="loginService.isLoggedin"  (click)="onLogout()" routerLink="/home">Logout</a>
+                    </div> -->
+
+
+                  </button>
+                  </div>
+                    <!-- user profile close-->
+
+
+
+
+
+                      <div class="cart"><span>0</span><a routerLink="/cart"><img src="../assets/images/cart.png"></a></div>
+                </ul>
+                  </div>
+                <!--<form action="#" class="search-box">
+                  <input type="text" placeholder="Type Something to Search..." required>
+                  <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+                </form>-->
+              </nav>
+            </div>
+
+  </div>
+</header>
+
+<!-- front-image -->
+<div id="content" [ngStyle]="{backgroundImage:'url(assets/images/hand411.jpg)'}" >
+  <div class="bg">
+
+          <h1><b>Best Wedding Planner of South India</b></h1>
+
+
+          <p>We recommand the best to your dream wedding</p>
+
+  </div>
+</div>
+
+<!-- wedding events -->
+<div class="wedding" id="weds">
+  <div id="wed">
+      <div class="wedtitle">
+      <h3>WEDDINGS</h3></div>
+  </div>
+
+  <div class="events1">
+
+      <div class="eventlist">
+          <div class="eventname"><img src="assets/images/beachsix.jpg"></div>
+          <div class="name"><a href="beach.html">Beach Wedding</a></div>
+      </div>
+
+      <div class="eventlist">
+          <div class="eventname"><img src="assets/images/vintage.jpg"></div>
+          <div class="name"><a href="vintage.html">Vintage Weddings</a></div>
+      </div>
+
+      <div class="eventlist">
+          <div class="eventname"><img src="assets/images/desti.jpg"></div>
+          <div class="name"><a href="destination.html">Destination Weddings</a></div>
+      </div>
+
+      <div class="eventlist">
+          <div class="eventname"><img src="assets/images/traditionaltwo.jpg"></div>
+          <div class="name"><a href="traditional.html">Traditional Weddings</a></div>
+      </div>
+
+      <div class="eventlist">
+          <div class="eventname"><img src="assets/images/royal.jpg"></div>
+          <div class="name"><a href="royal.html">Royal Weddings</a></div>
+      </div>
+
+      <div class="eventlist">
+          <div class="eventname"><img src="assets/images/diy.jpg"></div>
+          <div class="name"><a href="#">Free Style Wedding</a></div>
+      </div>
+ </div>
+
+ <!-- photograph -->
+ <div id="photography"><h3>STUDIO</h3></div>
+ <div class="grid-items">
+     <div class="content-photo-grid">
+         <p> Authentic, vibrant, honest this is
+             how photographer describes your wedding
+              photography. The photographer keeps
+              the couple’s lives in their moment
+              where they started. It’s particularly
+              important to capture the intense
+              emotions which make this day so
+              unique and personal. By including
+              numerous reviews on his website that
+              demonstrates how wonderful the final
+               result is and how happy the customers are.So that
+               is the customers can see what suits them best.
+
+         </p>
+     </div>
+         <div class="grid-photo-items">
+             <div class="grid-items1">
+                 <img src="assets/images/photo1.jpg">
+                 <img src="assets/images/photo2.jpg">
+             </div>
+             <div class="grid-items2">
+                 <img src="assets/images/photo3.jpg">
+                 <img src="assets/images/photo4.jpg">
+             </div>
+         </div>
+
+     </div>
+
+<app-Footer></app-Footer>
