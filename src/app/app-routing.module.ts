@@ -11,6 +11,8 @@ import { AdminComponent } from './Admin/Admin.component';
 import { AdminViewUserComponent } from './AdminViewUser/AdminViewUser.component';
 import { CartComponent } from './Cart/Cart.component';
 import { AuthGuard } from './auth.guard';
+import { AdminProductsComponent } from './AdminProducts/AdminProducts.component';
+import { AdminAddProductsComponent } from './AdminAddProducts/AdminAddProducts.component';
 
 const routes: Routes = [
   {
@@ -66,7 +68,15 @@ const routes: Routes = [
   {
     path:'AdminViewUser',
     component:AdminViewUserComponent
-  }
+  },
+  {
+  path:'AdminProducts',
+  component:AdminProductsComponent
+  },
+  {
+    path:'AdminAddProducts',
+    component:AdminAddProductsComponent
+    }
 ];
 
 @NgModule({

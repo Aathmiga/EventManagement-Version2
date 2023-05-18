@@ -12,11 +12,11 @@
                     <div class="field fname">
                       <div class="input-area">
                         <p class="nametype">First Name</p>
-                        <input type="text" id="firstName" placeholder="First Name" name="firstname" formControlName="firstname" >
+                        <input type="text" id="firstName" placeholder="First Name" name="firstname" formControlName="firstname">
                         <div class="error-error" *ngIf="RegisterForms.controls['firstname'].dirty">
                         <p class="error" *ngIf="RegisterForms.controls['firstname'].errors?.['required']"><i class="error error-icon fas fa-exclamation-circle"></i>First Name can't be blank</p>
                         <p class="error" *ngIf="RegisterForms.controls['firstname'].errors?.['pattern']"><i class="error error-icon fas fa-exclamation-circle"></i>Enter your First Name</p>
-                        <p class="error" *ngIf="RegisterForms.controls['firstname'].errors?.['UserNameValidator']"><i class="error error-icon fas fa-exclamation-circle"></i>No Space is Allowed</p>
+                        <p class="error" *ngIf="RegisterForms.controls['firstname'].errors?.['UsernameValidator']"><i class="error error-icon fas fa-exclamation-circle"></i>No Space is Allowed</p>
 
                       </div>
                       </div>
@@ -30,6 +30,8 @@
                         <div class="error-error" *ngIf="RegisterForms.controls['lastname'].dirty">
                         <p class="error" *ngIf="RegisterForms.controls['lastname'].errors?.['required']"><i class="error error-icon fas fa-exclamation-circle"></i>Last Name can't be blank</p>
                         <p class="error" *ngIf="RegisterForms.controls['lastname'].errors?.['pattern']"><i class="error error-icon fas fa-exclamation-circle"></i>Enter your Last Name</p>
+                        <!-- <p class="error" *ngIf="RegisterForms.controls['lastname'].errors?.['UsernameValidator']"><i class="error error-icon fas fa-exclamation-circle"></i>No Space is Allowed</p> -->
+
                           </div>
                       </div>
                     </div>

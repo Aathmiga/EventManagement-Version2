@@ -28,7 +28,7 @@
           <td>{{item.title}}</td>
           <td>{{item.titleDescription}}</td>
           <td>{{item.price| currency:'INR':'': '1.0-0'}}</td>
-          <td>{{item.quantity}}</td>
+          <td><i class="fa-solid fa-circle-left" (click)="decrease()"></i>{{item.quantity}}<i class="fa-solid fa-circle-right" (click)="increase()"></i></td>
           <td>{{item.total| currency:'INR':'': '1.0-0'}}</td>
 
         </tr>

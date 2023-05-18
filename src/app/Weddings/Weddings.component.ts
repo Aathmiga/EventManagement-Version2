@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { WeddingsService } from './weddings.service';
 import { CartService } from '../Cart/Cart.service';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+
 
 @Component({
   selector: 'app-Weddings',
@@ -14,7 +17,7 @@ titleDescription:any;
 p:number=1;
 currentPage: number = 1;
 
-  constructor(public service:WeddingsService,public cart:CartService)
+  constructor(public service:WeddingsService,public cart:CartService,private client:HttpClient)
    {}
 ngOnInit():void{
 this.service.getProducts().subscribe(data=>
@@ -25,6 +28,8 @@ this.service.getProducts().subscribe(data=>
   });
 });
 }
+
+//search the wedding list
 Search(){
   if(this.title==""){
     this.ngOnInit();
@@ -51,4 +56,8 @@ this.cart.addtocart(items);
 console.log(items)
 }
 
+
+
+
 }
+

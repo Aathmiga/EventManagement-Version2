@@ -9,8 +9,8 @@
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
-  padding: 12px;
-
+  font-size: 14px;
+  padding: 8px;
 }
 table{
   justify-content: center;
@@ -32,9 +32,10 @@ text-transform: uppercase;
 }
 .search-container {
 border: 1px solid #ccc;
-margin-left: 880px;
+margin-left:63%;
 
 }
+
 
 .search-container input[type=text] {
   padding: 6px;
@@ -56,3 +57,4 @@ margin-left: 880px;
  .search-container button:hover {
   background: #ccc;
 }
+

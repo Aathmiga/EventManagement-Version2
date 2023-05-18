@@ -21,6 +21,8 @@ import { AdminComponent } from './Admin/Admin.component';
 import { AdminHeaderComponent } from './AdminHeader/AdminHeader.component';
 import { AdminViewUserComponent } from './AdminViewUser/AdminViewUser.component';
 import { CartComponent } from './Cart/Cart.component';
+import { AdminProductsComponent } from './AdminProducts/AdminProducts.component';
+import { AdminAddProductsComponent } from './AdminAddProducts/AdminAddProducts.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,10 @@ import { CartComponent } from './Cart/Cart.component';
       AdminComponent,
       AdminHeaderComponent,
       AdminViewUserComponent,
-      CartComponent
+      CartComponent,
+      AdminProductsComponent,
+      AdminAddProductsComponent,
+
    ],
   imports: [
     BrowserModule,

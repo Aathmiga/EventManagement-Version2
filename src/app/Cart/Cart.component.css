@@ -46,4 +46,24 @@ h4,h6{
   cursor: pointer;
 
 }
+.fa-circle-left, .fa-circle-right{
+  font-size: 20px;
+  padding: 0 12px;
+  cursor:pointer;
 
+}
+
+.emptycart{
+padding: 8px 16px;
+color: #fff;
+background-color: rgb(169, 20, 20);
+outline: none;
+
+}
+.Checkout{
+  padding: 8px 16px;
+color: #fff;
+background-color: rgb(16, 96, 33);
+outline: none;
+margin-left: 900px;
+}

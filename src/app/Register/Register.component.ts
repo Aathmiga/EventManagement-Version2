@@ -29,7 +29,7 @@ RegisterForm=new FormGroup({
   constructor(private fb:FormBuilder,private Reg:NewRegisterService) { }
 
   RegisterForms=this.fb.group({
-    firstname:[,[Validators.required,Validators.pattern("^[A-Za-z ][A-Za-z\\s]{2,20}$")],UsernameValidator],
+    firstname:[,[Validators.required,Validators.pattern("^[A-Za-z ][A-Za-z\\s]{0,20}$")]],
     lastname:[,[Validators.required,Validators.pattern("^[A-Za-z ][A-Za-z\\s]{0,20}$")]],
     mobilenumber:[,[Validators.required,Validators.pattern("^[6-9]{1}[0-9]{9}$")]],
     email:[,[Validators.required,Validators.pattern("^([a-zA-Z0-9\.-]+)@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})$")]],

@@ -10,21 +10,24 @@ import { CartService } from '../Cart/Cart.service';
 export class HeaderComponent implements OnInit {
   public totalitem = 0;
 
-  constructor(private http:HttpClient,public loginService:LoginService,private service:CartService) { }
+  constructor(private http:HttpClient,public loginService:LoginService,private service:CartService,private cartService:CartService) { }
 
   ngOnInit() {
-    this.service.cartProducts().subscribe((res:  any)=>
-      {
-        this.totalitem = res.length;
-      })
+    this.totalcart();
+
   }
 
 onLogout(){
   this.loginService.onLogout();
-
+  this.totalitem=0;
 }
 
-
+totalcart(){
+  this.service.cartProducts().subscribe((res:  any)=>
+      {
+        this.totalitem = res.length;
+      })
+}
 
 
 }

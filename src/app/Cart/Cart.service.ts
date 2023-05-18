@@ -7,6 +7,7 @@ import { BehaviorSubject } from 'rxjs';
 export class CartService {
 public productList = new BehaviorSubject<any>([])
 public cartitemlist:any=[]
+public counter:number=1;
 constructor() { }
 cartProducts(){
   return this.productList.asObservable();
@@ -23,7 +24,6 @@ gettotalprice():number{
   let grandtotal = 0;
   this.cartitemlist.map((a:any)=>{
     grandtotal +=a.total;
-    console.log(grandtotal)
   })
   return grandtotal;
 }
@@ -42,6 +42,11 @@ this.cartitemlist.map((a:any,index:any)=>{
 })
 this.productList.next(this.cartitemlist);
 
+}
+
+//increament and decrement in cart
+updateCartItems(items: number) {
+  this.productList.next(items);
 }
 
 }

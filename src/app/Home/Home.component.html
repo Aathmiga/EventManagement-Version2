@@ -45,19 +45,18 @@
 
                   <div class="login">   <button class="home-login" id="login-btn">
                     <a  *ngIf="!loginService.isLoggedin" routerLink="/login">Login</a>
-                    <a *ngIf="loginService.isLoggedin"  (click)="onLogout()" routerLink="/home">Logout</a>
+                    <!-- <a *ngIf="loginService.isLoggedin"  (click)="onLogout()" routerLink="/home">Logout</a> -->
 
 
                     <!-- user profile -->
-                    <!-- <div *ngIf="loginService.isLoggedin"  class="loggedin">
-                    <div *ngIf="users">
+                    <div *ngIf="loginService.isLoggedin"  class="loggedin">
+                    <!-- <div *ngIf="users">
                       <div *ngFor="let items of users">
-                      <div  class="userName">{{items.firstname}}</div>
+                      <div  class="userName" >{{items.firsname}}</div>
                       </div>
-                    </div>
-                    <a   (click)="onLogout()" routerLink="/home">Logout</a>
-                    <a *ngIf="loginService.isLoggedin"  (click)="onLogout()" routerLink="/home">Logout</a>
                     </div> -->
+                    <a *ngIf="loginService.isLoggedin"  (click)="onLogout()" routerLink="/home">Logout</a>
+                    </div>
 
 
                   </button>
@@ -68,7 +67,7 @@
 
 
 
-                      <div class="cart"><span>0</span><a routerLink="/cart"><img src="../assets/images/cart.png"></a></div>
+                      <div class="cart"><span>{{totalitem}}</span><a routerLink="/cart"><img src="../assets/images/cart.png"></a></div>
                 </ul>
                   </div>
                 <!--<form action="#" class="search-box">
