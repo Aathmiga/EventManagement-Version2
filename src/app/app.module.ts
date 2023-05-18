@@ -21,8 +21,9 @@ import { AdminComponent } from './Admin/Admin.component';
 import { AdminHeaderComponent } from './AdminHeader/AdminHeader.component';
 import { AdminViewUserComponent } from './AdminViewUser/AdminViewUser.component';
 import { CartComponent } from './Cart/Cart.component';
+
 @NgModule({
-  declarations: [			
+  declarations: [
     AppComponent,
       LoginComponent,
       RegisterComponent,
@@ -43,7 +44,7 @@ import { CartComponent } from './Cart/Cart.component';
   imports: [
     BrowserModule,
     AppRoutingModule,FormsModule,HttpClientModule,NgxPaginationModule,ReactiveFormsModule,
-    Ng2SearchPipeModule,NgxPaginationModule,Ng2OrderModule,
+    Ng2SearchPipeModule,NgxPaginationModule,Ng2OrderModule
 
   ],
   providers: [],

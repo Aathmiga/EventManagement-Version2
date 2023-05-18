@@ -97,7 +97,7 @@
       "titleDescription": "Beach Wedding",
       "ratings": "4.3",
       "discount": "55% off",
-      "price": "20,000",
+      "price": 20000,
       "mrp": "M.R.P.:\u20B9",
       "originalPrice": "45,000",
       "id": "1"
@@ -108,7 +108,7 @@
       "titleDescription": "Beach Wedding",
       "ratings": "4.3",
       "discount": "49% off",
-      "price": "45,000",
+      "price": 45000,
       "mrp": "M.R.P.:\u20B9",
       "originalPrice": "88,499",
       "id": "2"
@@ -120,7 +120,7 @@
       "ratings": "4.3",
       "discount": "36% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "58,999",
+      "price": 58999,
       "originalPrice": "92,499",
       "id": "3"
     },
@@ -131,7 +131,7 @@
       "ratings": "4.3",
       "discount": "25% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "62,899",
+      "price": 62899,
       "originalPrice": "83,622",
       "id": "4"
     },
@@ -142,7 +142,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "28,999",
+      "price": 28999,
       "originalPrice": "",
       "id": "5"
     },
@@ -153,7 +153,7 @@
       "ratings": "4.3",
       "discount": "17% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "65,599",
+      "price": 65599,
       "originalPrice": "79,599",
       "id": "6"
     },
@@ -164,7 +164,7 @@
       "ratings": "4.3",
       "discount": "33% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "15,999",
+      "price": 15999,
       "originalPrice": "23,999",
       "id": "7"
     },
@@ -175,7 +175,7 @@
       "ratings": "4.3",
       "discount": "23% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "88,499",
+      "price": 88499,
       "originalPrice": "1,15,499",
       "id": "8"
     },
@@ -186,7 +186,7 @@
       "ratings": "4.3",
       "discount": "4% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "72,599",
+      "price": 72599,
       "originalPrice": "75,499",
       "id": "9"
     },
@@ -197,7 +197,7 @@
       "ratings": "4.3",
       "discount": "19% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "75,799",
+      "price": 75799,
       "originalPrice": "93,599",
       "id": "10"
     },
@@ -208,7 +208,7 @@
       "ratings": "4.3",
       "discount": "28% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "92,499",
+      "price": 92499,
       "originalPrice": "1,28,999",
       "id": "11"
     },
@@ -219,7 +219,7 @@
       "ratings": "4.3",
       "discount": "18% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "1,29,999",
+      "price": 129999,
       "originalPrice": "1,58,999",
       "id": "12"
     },
@@ -230,7 +230,7 @@
       "ratings": "4.3",
       "discount": "24% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "1,88,999",
+      "price": 188999,
       "originalPrice": "2,50,000",
       "id": "13"
     },
@@ -241,7 +241,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "55,599",
+      "price": 55599,
       "originalPrice": "",
       "id": "14"
     },
@@ -252,7 +252,7 @@
       "ratings": "4.3",
       "discount": "20% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "62,899",
+      "price": 62899,
       "originalPrice": "78,599",
       "id": "15"
     },
@@ -263,7 +263,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "68,899",
+      "price": 68899,
       "originalPrice": "",
       "id": "16"
     },
@@ -274,7 +274,7 @@
       "ratings": "4.3",
       "discount": "30% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "65,599",
+      "price": 65599,
       "originalPrice": "93,899",
       "id": "17"
     },
@@ -285,7 +285,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "62,599",
+      "price": 62599,
       "originalPrice": "",
       "id": "18"
     },
@@ -296,7 +296,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "34,599",
+      "price": 34599,
       "originalPrice": "",
       "id": "19"
     },
@@ -307,7 +307,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "48,599",
+      "price": 48599,
       "originalPrice": "",
       "id": "20"
     },
@@ -318,7 +318,7 @@
       "ratings": "4.3",
       "discount": "23% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "1,95,999",
+      "price": 195999,
       "originalPrice": "2,55,999",
       "id": "21"
     },
@@ -329,7 +329,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "45,599",
+      "price": 45599,
       "originalPrice": "",
       "id": "22"
     },
@@ -340,7 +340,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "45,999",
+      "price": 45999,
       "originalPrice": "",
       "id": "23"
     },
@@ -351,7 +351,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "82,599",
+      "price": 82599,
       "originalPrice": "",
       "id": "24"
     },
@@ -362,7 +362,7 @@
       "ratings": "4.3",
       "discount": "23% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "1,35,599",
+      "price": 135599,
       "originalPrice": "1,75,999",
       "id": "25"
     },
@@ -373,7 +373,7 @@
       "ratings": "4.3",
       "discount": "46% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "30,000",
+      "price": 30000,
       "originalPrice": "55,999",
       "id": "26"
     },
@@ -384,7 +384,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "45,599",
+      "price": 45599,
       "originalPrice": "",
       "id": "27"
     },
@@ -395,7 +395,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "50,499",
+      "price": 50499,
       "originalPrice": "",
       "id": "28"
     },
@@ -406,7 +406,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "28,999",
+      "price": 28999,
       "originalPrice": "",
       "id": "29"
     },
@@ -417,7 +417,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "63,599",
+      "price": 63599,
       "originalPrice": "",
       "id": "30"
     },
@@ -428,7 +428,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "72,299",
+      "price": 72299,
       "originalPrice": "",
       "id": "31"
     },
@@ -439,7 +439,7 @@
       "ratings": "4.3",
       "discount": "20% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "1,10,999",
+      "price": 110999,
       "originalPrice": "1,38,999",
       "id": "32"
     },
@@ -450,7 +450,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "20,000",
+      "price": 20000,
       "originalPrice": "",
       "id": "33"
     },
@@ -461,7 +461,7 @@
       "ratings": "4.3",
       "discount": "13% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "85,599",
+      "price": 85599,
       "originalPrice": "98,599",
       "id": "34"
     },
@@ -472,7 +472,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "52,499",
+      "price": 52499,
       "originalPrice": "",
       "id": "35"
     },
@@ -483,7 +483,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "48,999",
+      "price": 48999,
       "originalPrice": "",
       "id": "36"
     },
@@ -494,7 +494,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "1,25,999",
+      "price": 125999,
       "originalPrice": "",
       "id": "37"
     },
@@ -505,7 +505,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "76,599",
+      "price": 76599,
       "originalPrice": "",
       "id": "38"
     },
@@ -516,7 +516,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "1,28,499",
+      "price": 128499,
       "originalPrice": "",
       "id": "39"
     },
@@ -527,7 +527,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "1,68,299",
+      "price": 168299,
       "originalPrice": "",
       "id": "40"
     },
@@ -538,7 +538,7 @@
       "ratings": "4.3",
       "discount": "",
       "mrp": "",
-      "price": "62,599",
+      "price": 62599,
       "originalPrice": "",
       "id": "41"
     },
@@ -549,7 +549,7 @@
       "ratings": "4.3",
       "discount": "47% off",
       "mrp": "M.R.P.:\u20B9",
-      "price": "1,58,499",
+      "price": 158499,
       "originalPrice": "2,98,499",
       "id": "42"
     }

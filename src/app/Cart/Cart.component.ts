@@ -8,34 +8,23 @@ import { CartService } from './Cart.service';
   styleUrls: ['./Cart.component.css']
 })
 export class CartComponent implements OnInit {
-weddings:any;
-  constructor(private service:CartService) { }
+public products!:any[];
+public grandtotal:number=0;
+  constructor(public cart:CartService) { }
   ngOnInit():void{
-    this.service.cartProducts().subscribe((data: any)=>
-      {
-        this.weddings=data;
-      });
+    this.cart.cartProducts().subscribe(res=>{
+      this.products=res;
+      this.grandtotal = this.cart.gettotalprice();
+    })
     }
-setProduct(product:any){
-  this.weddings.push(...product);
-  this.weddings.next(product)
+
+//remove all items in cart
+emptycart(){
+  this.cart.removeAll();
 }
-addToCart(product:any){
-  this.weddings.push(product);
-  this.weddings.next(this.weddings);
-  this.getTotalAmount();
-}
-getTotalAmount(){
-  let grandTotal=0;
-  this.weddings.map((a:any)=>{
-    grandTotal+=a.total;
-  })
-}
-removeCartData(product:any){
-  this.weddings.map((a:any,index:any)=>{
-    if(product.id===a.id){
-      this.weddings.splice(index,1)
-    }
-  })
+
+//remove one item in cart
+removeone(item:any){
+  this.cart.removeoneitem(item);
 }
 }

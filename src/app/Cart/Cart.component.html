@@ -1,5 +1,7 @@
 <app-Header></app-Header>
-<ng-container *ngIf="true">
+
+<!-- when cart contains item -->
+<ng-container *ngIf="products.length!=0">
   <DIV CLASS="top"></DIV>
   <div class="container">
 <div class="card-table">
@@ -8,23 +10,42 @@
       <thead>
         <tr>
           <th>S.NO</th>
+          <th>DELETE</th>
           <th>PRODUCT IMAGE</th>
           <th>PRODUCT NAME</th>
           <th>PRODUCT DESCRIPTION</th>
           <th>PRICE</th>
           <th>QUANTITY</th>
           <th>TOTAL</th>
-          <th>DELETE</th>
 
         </tr>
       </thead>
+      <tbody *ngFor="let item of products; let i = index">
+        <tr class="cartitems">
+          <td>{{i+1}}</td>
+          <td><i class="fa-sharp fa-solid fa-trash" (click)="removeone(item)"></i></td>
+          <td><img style="width:100px;height:100px" src="{{item.image}}"></td>
+          <td>{{item.title}}</td>
+          <td>{{item.titleDescription}}</td>
+          <td>{{item.price| currency:'INR':'': '1.0-0'}}</td>
+          <td>{{item.quantity}}</td>
+          <td>{{item.total| currency:'INR':'': '1.0-0'}}</td>
+
+        </tr>
+
+      </tbody>
     </table>
+    <td class="emptyCart"></td>
+        <td><button (click)="emptycart()" class="emptycart"> Empty Cart</button></td>
+        <td><button class="Checkout"> Check Out</button></td>
+        <td><strong>Grand Total: {{grandtotal| currency:'INR':'symbol': '1.0-0'}}</strong></td>
   </div></div>
 </div>
 </ng-container>
 
 
-<ng-container *ngIf="false">
+<!-- when cart is empty -->
+<ng-container *ngIf="products.length==0">
 <div class="top"></div>
 <div class="container">
   <div class="card">

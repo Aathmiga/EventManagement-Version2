@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class WeddingsService {
 
-constructor(private http:HttpClient) { }
+constructor(public http:HttpClient) { }
 getProducts(){
   return this.http.get("http://localhost:3000/weddings")
 }

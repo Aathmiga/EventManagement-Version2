@@ -1,22 +1,29 @@
 import { Component, OnInit } from '@angular/core';
 import { WeddingsService } from './weddings.service';
+import { CartService } from '../Cart/Cart.service';
+
 @Component({
   selector: 'app-Weddings',
   templateUrl: './Weddings.component.html',
   styleUrls: ['./Weddings.component.css']
 })
 export class WeddingsComponent implements OnInit {
-weddings:any;
+public weddings:any;
 title:any;
 titleDescription:any;
 p:number=1;
-  constructor(public service:WeddingsService)
+currentPage: number = 1;
+
+  constructor(public service:WeddingsService,public cart:CartService)
    {}
 ngOnInit():void{
 this.service.getProducts().subscribe(data=>
   {
     this.weddings=data;
+    this.weddings.forEach((a:any)=>{
+      Object.assign(a,{quantity:1,total:a.price})
   });
+});
 }
 Search(){
   if(this.title==""){
@@ -28,8 +35,20 @@ Search(){
     });
   }
 }
+loadData(){
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+//on page change
+onPageChange(page: number): void {
+  this.currentPage = page;
+  this.loadData();
+}
 
+//add to cart
 
-
+addtocart(items:any){
+this.cart.addtocart(items);
+console.log(items)
+}
 
 }
