@@ -30,7 +30,7 @@
                         <div class="error-error" *ngIf="RegisterForms.controls['lastname'].dirty">
                         <p class="error" *ngIf="RegisterForms.controls['lastname'].errors?.['required']"><i class="error error-icon fas fa-exclamation-circle"></i>Last Name can't be blank</p>
                         <p class="error" *ngIf="RegisterForms.controls['lastname'].errors?.['pattern']"><i class="error error-icon fas fa-exclamation-circle"></i>Enter your Last Name</p>
-                        <!-- <p class="error" *ngIf="RegisterForms.controls['lastname'].errors?.['UsernameValidator']"><i class="error error-icon fas fa-exclamation-circle"></i>No Space is Allowed</p> -->
+                        <p class="error" *ngIf="RegisterForms.controls['lastname'].errors?.['UsernameValidator']"><i class="error error-icon fas fa-exclamation-circle"></i>No Space is Allowed</p>
 
                           </div>
                       </div>
@@ -111,7 +111,7 @@
 
 <div class="button-reg">
     <a routerLink="/login" class="accReg">Already have an account?</a>
-    <input type="submit" value="Register" class="buttons-reg" [disabled]="!RegisterForms.valid">
+    <button type="submit" class="btn btn-primary buttons-reg" value="Register"  [disabled]="!RegisterForms.valid">Register</button>
 </div>
 
 </form>

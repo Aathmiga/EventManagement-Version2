@@ -10,11 +10,24 @@ import { CartService } from '../Cart/Cart.service';
   styleUrls: ['./Home.component.css']
 })
 export class HomeComponent implements OnInit {
-
   constructor(public loginService:LoginService,private cartService:CartService,private homeService:HomeService,public http:HttpClient) { }
 public totalitem=0;
   users:any;
+
+email:any=""
+id:any;
+firstname:any;
+username:any;
+checkEmail:any;
 ngOnInit():void{
+
+  //login user name
+  const user=sessionStorage.getItem('loginUser');
+  if(user){
+    this.email=JSON.parse(user);
+  }
+
+  //get user data from db
   this.homeService.getProducts().subscribe(data=>
     {
       this.users=data;
@@ -22,11 +35,14 @@ ngOnInit():void{
     });
 
   }
+
   onLogout(){
     this.loginService.onLogout();
     this.totalitem=0;
-
   }
+
+
+  //count cart items
   cart(){
  this.cartService.cartProducts().subscribe((res:  any)=>
       {
@@ -38,23 +54,8 @@ ngOnInit():void{
 
 
 
-// email:any=sessionStorage.getItem('email');
-// id:any;
-// firstname:any;
-// username:any;
-//   user(){
-//     this.http.get<any>('http://localhost:3000/users').subscribe((users)=>{
-//       const user=users.find((u:any)=>u.email===this.users.value.email);
-//      if(user){
-//       return true;
-//      }
-//      else{
-//       return false;
-//      }
-//     });
 
-
-
+}
 
 
 
@@ -75,5 +76,6 @@ ngOnInit():void{
     // this.firstname=this.username[this.id].firstname;
     // })
 
-  }
-  
+  // }
+
+

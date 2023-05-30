@@ -13,6 +13,7 @@ constructor() { }
    }
    onLogout(){
     this.isLoggedin=false;
+  
    }
 
 }

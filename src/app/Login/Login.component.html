@@ -25,7 +25,7 @@
 
         <div class="field email">
           <div class="input-area">
-            <input  type="text" id="email" placeholder="Email Address" formControlName="email">
+            <input type="text" id="email" placeholder="Email Address" formControlName="email">
             <div class="error-error" *ngIf="LoginForms.controls['email'].dirty">
               <p class="error" *ngIf="LoginForms.controls['email'].errors?.['required']">Email can't be blank</p>
               <p class="error" *ngIf="LoginForms.controls['email'].errors?.['pattern']">Enter correct email</p>
@@ -53,10 +53,10 @@
         </div>
 
 
-        <div class="pass-txt"><a href="#">Forgot password?</a></div>
+        <div class="pass-txt"><a routerLink="#">Forgot password?</a></div>
         <div class="final">
           <a id="create" routerLink="/register">Create account</a>
-        <button type="submit" name="submit" value="Login" id="submit" [disabled]="!LoginForms.valid">Login</button>
+        <button type="submit" class="btn btn-primary" name="submit" value="Login" id="submit" [disabled]="!LoginForms.valid">Login</button>
 
   </div>
       </form>
@@ -64,7 +64,7 @@
 
 </div>
 
-      
+
 
 
 

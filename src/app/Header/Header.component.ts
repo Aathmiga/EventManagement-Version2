@@ -11,8 +11,14 @@ export class HeaderComponent implements OnInit {
   public totalitem = 0;
 
   constructor(private http:HttpClient,public loginService:LoginService,private service:CartService,private cartService:CartService) { }
+  users:any;
 
+  email:any=""
   ngOnInit() {
+    const user=sessionStorage.getItem('loginUser');
+  if(user){
+    this.email=JSON.parse(user);
+  }
     this.totalcart();
 
   }

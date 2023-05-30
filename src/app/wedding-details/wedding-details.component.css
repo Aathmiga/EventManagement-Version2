@@ -12,11 +12,12 @@ box-sizing: border-box;
 .productImg{
   border: 1px solid gray;
   padding: 10px;
+  height: 530px;
 }
 .wed-details-flex{
   display: grid;
   padding-right: 40px;
- 
+
 }
 .wedding-products-detail{
   border: 1px solid black;
@@ -40,6 +41,8 @@ box-sizing: border-box;
 .wed-gallery{
   height: 100px;
   width: 100px;
+  padding-right: 2px;
+  padding-left: 2px;
 }
 /* price */
 
@@ -186,4 +189,10 @@ cursor: pointer;
     color:#fff;
     cursor: pointer;
   }
+.description-detail h5{
+  padding-top: 10px;
+}
 
+.product-special h4{
+  padding-top: 10px;
+}

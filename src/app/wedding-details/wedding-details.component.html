@@ -18,7 +18,10 @@
            <img class="wed-gallery" [src]="finalProduct.image4" alt="">
 
           </div>
-
+          <div class="product-special">
+            <h4>Specification</h4>
+            <p>After checkout you will recieve mail from the company fill the form and submit </p>
+          </div>
         </div>
     </div>
 
@@ -38,6 +41,15 @@
             <p id="name-currency">{{finalProduct.mrp}}</p>
             <p id="name-strikes"> {{finalProduct.originalPrice}}</p>
             </div>
+            <div class="button-item">
+              <div class="button">
+                  <a routerLink="#" class="buttons-add" (click)="addtocart(finalProduct)">Add to cart</a>
+
+                </div>
+              <div class="button">
+                  <a routerLink="#" class="buttons-order">Order Now</a>
+              </div>
+          </div>
             <div class="bankoffers">
               <h5>Available Offers</h5>
              <div class="bank1"> <p><span>Bank Offer</span>Flat ₹1250 Discount on HDFC Bank Credit Card on orders of ₹15,000 and above</p><a>T&C</a></div>
@@ -53,17 +65,6 @@
               <div class="secure"><i class="fa-solid fa-lock"></i><p>Secure<br> Transaction</p></div>
 
             </div><hr>
-
-
-
-        <div class="button-item">
-          <div class="button">
-              <a routerLink="#" class="buttons-add" (click)="addtocart(finalProduct)">Add to cart</a>
-          </div>
-          <div class="button">
-              <a routerLink="#" class="buttons-order">Order Now</a>
-          </div>
-      </div>
 
       <div class="description-detail">
         <h5>Highlights</h5>

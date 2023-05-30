@@ -13,6 +13,7 @@ import { CartComponent } from './Cart/Cart.component';
 import { AuthGuard } from './auth.guard';
 import { AdminProductsComponent } from './AdminProducts/AdminProducts.component';
 import { AdminAddProductsComponent } from './AdminAddProducts/AdminAddProducts.component';
+import { CateringComponent } from './catering/catering.component';
 
 const routes: Routes = [
   {
@@ -47,6 +48,10 @@ const routes: Routes = [
   {
     path:'studio',
     component:StudioComponent
+  },
+  {
+    path:'cater',
+    component:CateringComponent
   },
   {
     path:'contact',

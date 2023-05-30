@@ -207,6 +207,7 @@ visibility: hidden;
 .content .links li:hover > ul{
 top: 70px;
 opacity: 1;
+position: absolute;
 visibility: visible;
 transition: all 0.3s ease;
 }
@@ -492,6 +493,9 @@ text-align: center;
   border-radius: 20px;
   font-size: 18px;
 
+ }
+ .container .card .morebutton-weddings:hover button {
+  background-color: #ecd1d1;
  }
  .container .card .morebutton-weddings button a{
   color: #333;

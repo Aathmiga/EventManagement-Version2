@@ -1,9 +1,5 @@
 <header >
   <div  class="navbars">
-
-
-
-
           <div  class="navbar">
               <nav>
                 <input type="checkbox" id="show-menu">
@@ -24,7 +20,7 @@
                       <input type="checkbox" id="show-services">
                       <label for="show-services" >Shop</label>
                       <ul>
-                        <li><a routerLink="/catering">Catering</a></li>
+                        <li><a routerLink="/cater">Catering</a></li>
                         <li><a routerLink="/studio">Studio</a></li>
                         <li><a routerLink="/weddings">Weddings</a>
                         <!-- <ul><li >
@@ -47,14 +43,18 @@
 
                     <li class="active-btn"><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
 
-                  <div class="login">   <button class="home-login" id="login-btn">
-                    <a  *ngIf="!loginService.isLoggedin" routerLink="/login">Login</a>
-                    <a *ngIf="loginService.isLoggedin"  (click)="onLogout()" routerLink="/home">Logout</a>
+                    <div class="login">   <button class="home-login" id="login-btn">
+                      <a  *ngIf="!loginService.isLoggedin" routerLink="/login"  >Login</a>
+                      <div *ngIf="loginService.isLoggedin"  class="loggedin">
+                      <div>
+                        <!-- {{email.firstname}} -->
+                       </div>
+                      <a (click)="onLogout()" routerLink="/home">Logout</a>
+                      </div>
 
-                      </button>
 
-
-                  </div>
+                    </button>
+                    </div>
                       <div class="cart"><span>{{totalitem}}</span><a routerLink="/cart"><img src="../assets/images/cart.png"></a></div>
                 </ul>
                   </div>

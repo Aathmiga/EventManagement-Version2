@@ -1,3 +1,5 @@
+
+<!-- header -->
 <header >
   <div  class="navbars">
           <div  class="navbar">
@@ -20,48 +22,27 @@
                       <input type="checkbox" id="show-services">
                       <label for="show-services" >Shop</label>
                       <ul>
-                        <li><a routerLink="/catering">Catering</a></li>
+                        <li><a routerLink="/cater">Catering</a></li>
                         <li><a routerLink="/studio">Studio</a></li>
                         <li><a routerLink="/weddings">Weddings</a>
-                        <!-- <ul><li >
-                          <input type="checkbox" id="show-features">
-
-                            <li><a routerLink="traditional">Traditional</a></li>
-                            <li><a routerLink="royal">Royal</a></li>
-                            <li><a routerLink="vintage">Vintage</a></li>
-                            <li><a routerLink="beach">Beach</a></li>
-                            <li><a routerLink="destination">Desination</a></li>
-
-
-                       </ul> -->
                         </li>
-
-
                       </ul>
                   </li>
-
-
                     <li class="active-btn"><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
 
                   <div class="login">   <button class="home-login" id="login-btn">
-                    <a  *ngIf="!loginService.isLoggedin" routerLink="/login">Login</a>
-                    <!-- <a *ngIf="loginService.isLoggedin"  (click)="onLogout()" routerLink="/home">Logout</a> -->
+                    <a  *ngIf="!loginService.isLoggedin" routerLink="/login"  >Login</a>
 
-
-                    <!-- user profile -->
                     <div *ngIf="loginService.isLoggedin"  class="loggedin">
-                    <!-- <div *ngIf="users">
-                      <div *ngFor="let items of users">
-                      <div  class="userName" >{{items.firsname}}</div>
-                      </div>
-                    </div> -->
-                    <a *ngIf="loginService.isLoggedin"  (click)="onLogout()" routerLink="/home">Logout</a>
+                    <div>
+                      <!-- {{email.firstname}} -->
+                     </div>
+                    <a (click)="onLogout()" routerLink="/home">Logout</a>
                     </div>
 
 
                   </button>
                   </div>
-                    <!-- user profile close-->
 
 
 
@@ -70,16 +51,14 @@
                       <div class="cart"><span>{{totalitem}}</span><a routerLink="/cart"><img src="../assets/images/cart.png"></a></div>
                 </ul>
                   </div>
-                <!--<form action="#" class="search-box">
-                  <input type="text" placeholder="Type Something to Search..." required>
-                  <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
-                </form>-->
+
               </nav>
             </div>
 
   </div>
 </header>
 
+<!-- header closes -->
 <!-- front-image -->
 <div id="content" [ngStyle]="{backgroundImage:'url(assets/images/hand411.jpg)'}" >
   <div class="bg">

@@ -3,14 +3,20 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder,Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { LoginService } from './Login.service';
+import { HomeService } from '../Home/Home.service';
 @Component({
   selector: 'app-Login',
   templateUrl: './Login.component.html',
   styleUrls: ['./Login.component.css']
 })
 export class LoginComponent implements OnInit {
+
 studio:any;
-  constructor(private fb:FormBuilder,private http:HttpClient,private route:Router,public loginService:LoginService) {}
+  constructor(private fb:FormBuilder,
+    private http:HttpClient,
+    private route:Router,
+    public loginService:LoginService,
+    private service:HomeService) {}
 
 LoginForms=this.fb.group({
   email:[,[Validators.required,Validators.pattern("^([a-zA-Z0-9\.-]+)@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})$")]],
@@ -29,8 +35,9 @@ user(){
     const user=users.find((u:any)=>u.email===this.LoginForms.value.email && u.create=== this.LoginForms.value.password);
     if(user){
       alert('login successfully');
+      this.service.loginUser=user;
+      sessionStorage.setItem('loginUser', JSON.stringify(user));
       this.loginService.onLogin();
-
       this.LoginForms.reset();
       this.route.navigate(['/home']);
     }
